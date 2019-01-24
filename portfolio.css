@@ -1,0 +1,98 @@
+body {
+  background-color: #white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #6E7F72;
+}
+
+.main {
+  padding-left: 30px;
+  padding-right:  30px;
+}
+
+h2 {
+  text-align: left;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+
+p {
+  text-align: left;
+}
+
+img {
+  border: 2px solid #6E7F72;
+  border-radius: 4px;
+  padding: 5px;
+  width: auto;
+  height: 300px;
+  float: right;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+div.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6E7F72;
+}
+
+
+
+div li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: 6E7F72;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #252B27;
+}
+
+li.norm {
+ list-style: georgian;
+ background-color: #6E7F72;
+}
+
+li{
+  display: inline;
+  float: left;
+  padding: 5px;
+  background-color:  #6E7F72;
+}
+
+div a {
+  display: block;
+  background-color: #6E7F72;
+
+}
+
+.pro {
+  background-color: white;
+}
+
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1
+}
+
+section {
+  padding: 30px;
+}
+
+article {
+ flex: 4
+}
